@@ -10,7 +10,8 @@ function Modal(props){
 
   return (
       <div className='modal'>
-          <p>Are you sure? you want to delete {props.text}</p>
+          <p>Are you sure? you want to delete {props.text}</p> 
+          {/* nahan q mag dynamic ari dapita  props.text */}
           <button className='btn btn--alt' onClick={cancelHandler}>Cancel</button>
           <button className='btn' onClick={confirmHandler}>Confirm</button>
       </div>
